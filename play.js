@@ -26,20 +26,20 @@ mySubs.forEach((stanza) => {
 function getMovieStartTime() {
     const movieStartTime = process.argv[3];
     if (movieStartTime) {
-        console.log('playing subtitles from: ' + movieStartTime + ' milliseconds\n\n');
+        console.log('playing subtitles from: ' + movieStartTime + ' milliseconds');
         return movieStartTime;
     } 
-    console.log('no start time provided by user\nStarting at 0 milliseconds');
+    console.log('no start time provided by user\nstarting at 0 milliseconds');
     return 0;
 }
 
 function getSubtitleFile() {
     const subtitleFile = process.argv[2];
     if (subtitleFile) {
-        console.log('found subtitle file: ' + subtitleFile + '\n\n');
+        console.log('found subtitle file: ' + subtitleFile + '');
         return subtitleFile;
     } 
-    console.log('no subtitle file provided by user\nDefaulting to test file');
+    console.log('no subtitle file provided by user\ndefaulting to test file');
     return 'test.srt';
 }
 
