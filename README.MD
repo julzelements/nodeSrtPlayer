@@ -10,7 +10,7 @@ This subtitle player will:
 
 ## Instructions
 ```bash
-$cd nodeSrtPlayer
+$ cd nodeSrtPlayer
 $ npm install
 ```
 
