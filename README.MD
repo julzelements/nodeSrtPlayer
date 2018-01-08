@@ -9,6 +9,11 @@ This subtitle player will:
 * instantly begin to play it at a point in the file specified by the user
 
 ## Instructions
+```bash
+$cd nodeSrtPlayer
+$ npm install
+```
+
 To start playing the spiderman.srt file at the 19 second mark:
 ```bash
 $ node player spiderman.srt 19000
