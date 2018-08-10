@@ -16,17 +16,17 @@ $ npm install
 
 To start playing the spiderman.srt file at the 19 second mark:
 ```bash
-$ node player spiderman.srt 19000
+$ node play spiderman.srt 19000
 ```
 
 To play the test file at zero seconds with medatata logging: 
 ```bash
-$ node player test.srt 0 verbose
+$ node play test.srt 0 verbose
 ```
 
 To play default file:
 ```bash
-$ node player
+$ node play
 ```
 
 
